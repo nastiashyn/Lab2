@@ -1,0 +1,22 @@
+@import "../../../../styles/variables.scss";
+
+.navigation {
+  display: flex;
+  gap: 41px;
+}
+
+.link {
+  color: $color_main;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+
+  &:hover {
+    color: $color_blue;
+    transition: all 0.5s ease;
+  }
+
+  &.active {
+    color: $color_blue;
+  }
+}

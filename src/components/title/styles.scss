@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+
+.title {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 600;
+
+  &.medium {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  &.white {
+    color: $color_white;
+  }
+}

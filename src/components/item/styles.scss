@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.item {
+  min-width: 70px;
+  height: 70px;
+  border-radius: 17px;
+  position: relative;
+
+  &.orange {
+    background-color: $color_orange;
+  }
+
+  &.yellow {
+    background-color: $color_yellow;
+  }
+  &.green {
+    background-color: $color_green;
+  }
+}

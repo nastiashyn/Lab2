@@ -1,0 +1,62 @@
+@import "./styles/reset.scss";
+
+.app {
+  position: relative;
+
+  .top-gradient {
+    position: absolute;
+    z-index: -1;
+    width: 718px;
+    height: 718px;
+    left: -293px;
+    top: -267px;
+    filter: blur(75px);
+    border-radius: 50%;
+    background: linear-gradient(
+      49.08deg,
+      rgba(65, 88, 208, 0.4) 3.31%,
+      rgba(200, 80, 192, 0.4) 57.52%,
+      rgba(255, 204, 112, 0.4) 91.12%
+    );
+  }
+
+  .midle-gradient {
+    position: absolute;
+    z-index: -1;
+    width: 496px;
+    height: 496px;
+    right: -293px;
+    top: 1550px;
+    filter: blur(75px);
+    border-radius: 50%;
+    background: linear-gradient(
+      49.08deg,
+      rgba(65, 88, 208, 0.4) 3.31%,
+      rgba(200, 80, 192, 0.4) 57.52%,
+      rgba(255, 204, 112, 0.4) 91.12%
+    );
+  }
+
+  .bottom-gradient {
+    position: absolute;
+    z-index: -1;
+    width: 496px;
+    height: 496px;
+    left: -222px;
+    bottom: -150px;
+    filter: blur(75px);
+    border-radius: 50%;
+    background: linear-gradient(
+      49.08deg,
+      rgba(65, 88, 208, 0.4) 3.31%,
+      rgba(200, 80, 192, 0.4) 57.52%,
+      rgba(255, 204, 112, 0.4) 91.12%
+    );
+  }
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 10px;
+  margin: 0 auto;
+}

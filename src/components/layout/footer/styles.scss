@@ -1,0 +1,64 @@
+.footer {
+  margin-top: 160px;
+  // padding-bottom: 196px;
+  flex-wrap: wrap;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .contact-our p {
+    white-space: nowrap;
+    margin-bottom: 17px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+
+  .title {
+    margin-bottom: 32px;
+  }
+  .about-us {
+    max-width: 201px;
+  }
+
+  .email {
+    margin-bottom: 27px;
+    position: relative;
+
+    input {
+      height: 40px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: rgba(34, 33, 54, 0.8);
+      padding: 14px 19px;
+      background: #ecf0fc;
+      outline: none;
+      border-radius: 9px;
+    }
+
+    .send-email {
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  }
+
+  .media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .icon {
+      cursor: pointer;
+    }
+  }
+}
